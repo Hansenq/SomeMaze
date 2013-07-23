@@ -7,7 +7,7 @@
 //
 
 #import "SMViewController.h"
-#import "SMMyScene.h"
+#import "SMMainMaze.h"
 
 @implementation SMViewController
 
@@ -21,7 +21,7 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [SMMyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [SMMainMaze sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.

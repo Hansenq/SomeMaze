@@ -24,6 +24,7 @@
 		649F7659179DA05000CB011A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649F7634179DA05000CB011A /* UIKit.framework */; };
 		649F7661179DA05000CB011A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 649F765F179DA05000CB011A /* InfoPlist.strings */; };
 		649F7663179DA05000CB011A /* SomeMazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649F7662179DA05000CB011A /* SomeMazeTests.m */; };
+		649F7679179DB1C900CB011A /* SMMainMaze.m in Sources */ = {isa = PBXBuildFile; fileRef = 649F7678179DB1C900CB011A /* SMMainMaze.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		649F765E179DA05000CB011A /* SomeMazeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SomeMazeTests-Info.plist"; sourceTree = "<group>"; };
 		649F7660179DA05000CB011A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		649F7662179DA05000CB011A /* SomeMazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeMazeTests.m; sourceTree = "<group>"; };
+		649F7677179DB1C900CB011A /* SMMainMaze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMainMaze.h; sourceTree = "<group>"; };
+		649F7678179DB1C900CB011A /* SMMainMaze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMainMaze.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 				649F7648179DA05000CB011A /* SMViewController.m */,
 				649F764A179DA05000CB011A /* SMMyScene.h */,
 				649F764B179DA05000CB011A /* SMMyScene.m */,
+				649F7677179DB1C900CB011A /* SMMainMaze.h */,
+				649F7678179DB1C900CB011A /* SMMainMaze.m */,
 				649F764D179DA05000CB011A /* Spaceship.png */,
 				649F764F179DA05000CB011A /* Images.xcassets */,
 				649F7639179DA05000CB011A /* Supporting Files */,
@@ -267,6 +272,7 @@
 				649F7649179DA05000CB011A /* SMViewController.m in Sources */,
 				649F764C179DA05000CB011A /* SMMyScene.m in Sources */,
 				649F763F179DA05000CB011A /* main.m in Sources */,
+				649F7679179DB1C900CB011A /* SMMainMaze.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
